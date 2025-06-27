@@ -1,33 +1,49 @@
-Dependenices of this project
+# 🚆 Smart Deal Recommendation System for Commuters and Students
 
+This project builds a smart recommendation system that offers personalized, cost-effective deals to commuters and students based on their travel patterns, demographics, preferences, and external factors like weather and time of day.
 
-Python 3.10+
+## 🧠 Problem Statement
+Urban commuters and students often miss out on relevant local deals. This system leverages machine learning to suggest offers that align with their context — increasing redemption rates and convenience.
 
-pandas
+## 📊 Dataset
+- 12,600+ rows
+- Features include: trip purpose, travel companion, weather, temperature, time of day, user demographics, and previous visit behaviors.
+- Target variable: `redeemed` (whether the offer was redeemed or not)
 
-numpy
+## 🧹 Preprocessing
+- Handled missing values using logical imputation
+- Encoded categorical variables via One-Hot Encoding
+- Outlier detection and scaling using `RobustScaler`
+- Feature selection using `VarianceThreshold` and Random Forest importance scores
 
-matplotlib
+## ⚙️ ML Models Used
+- ✅ **Random Forest Classifier** (best performing — Accuracy: ~74.7%)
+- Logistic Regression
+- Multinomial Naive Bayes
+- Gradient Boosting
+- Support Vector Classifier (SVC)
+- XGBoost Classifier
 
-seaborn
+## 🧪 Evaluation Metrics
+- Accuracy
+- Precision, Recall, F1-Score
+- Confusion Matrix
 
-scikit-learn
+## 📈 Results
+Random Forest and XGBoost both achieved an accuracy of ~74.7% with balanced precision-recall across classes.
 
-xgboost
+## 🚀 Tools & Libraries
+- Python, Pandas, NumPy
+- Scikit-learn, XGBoost
+- Matplotlib, Seaborn (for EDA and visualization)
 
+## 📌 Future Improvements
+- Add user authentication and real-time geolocation
+- Integrate with live deal APIs
+- Deploy as a mobile app or web dashboard
 
-Running the project file : 
+---
 
-1. Install the required libraries 
-
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost 
-
-execute the above command or install each one at a time
-
-2. jupyter notebook sample.ipynb 
-
-execute this in terminal
-
-or if using the vscode press run all to execute all cells at a time
-
+### 🔗 Connect With Me
+Feel free to check out the [LinkedIn Post](#) or connect to discuss improvements or collaboration!
 
