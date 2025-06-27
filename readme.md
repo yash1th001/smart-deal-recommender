@@ -45,5 +45,5 @@ Random Forest and XGBoost both achieved an accuracy of ~74.7% with balanced prec
 ---
 
 ### 🔗 Connect With Me
-Feel free to check out the [LinkedIn Post](#) or connect to discuss improvements or collaboration!
+Feel free to check out the [LinkedIn Post](https://www.linkedin.com/posts/yash1th011_smartdealrecommendations-activity-7344303556373508099-LP9X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1bMZgBgDjjqddr3c0e7UqSMqnym2mBC5k) or connect to discuss improvements or collaboration!
 
