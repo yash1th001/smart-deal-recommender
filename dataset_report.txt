@@ -1,0 +1,13 @@
+This dataset contains  columns
+trip_purpose , travel_company , current_weather , ambient_temp , time_of_day , offer_type , deal_expiry_window , user_gender , user_age_group  ,   relationship_status , num_dependents , education_level , job_type , salary_range , vehicle_type , visit_bar_freq , visit_cafe_freq , visit_takeout_freq , visit_restaurant_low , visit_restaurant_high , min_gap_to_offer_5 , min_gap_to_offer_15 , min_gap_to_offer_25 , direction_match , direction_mismatch , redeemed 
+after removing the 15 unnamed columns
+
+The columns undergone cleaning and feature engeneering for increasing the model efficiency
+
+Those include scaling of numerical columns
+
+Encoding of the categorical columns
+
+Feature selection using the correlation method
+
+And also the outliers and handled and scaling using robust scaling helped in great in overcoming the outlier 
